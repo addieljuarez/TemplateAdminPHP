@@ -8,7 +8,7 @@
 			
 			public function index()
 			{
-				$this->load->view('index');
+				$this->load->view('main');
 			}
 		}	
 ?>
