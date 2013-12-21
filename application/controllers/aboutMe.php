@@ -11,7 +11,7 @@
 			parent::__construct();
 			$this->load->helper('url');
 		}
-		function about() {
+		function aboutMe() {
 			$this->load->view('aboutMeView');
 		}
 	}

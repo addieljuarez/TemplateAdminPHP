@@ -32,7 +32,7 @@
 	            		<span class="icon-bar"></span>
           			</button>
           			<a class="navbar-brand" href="<?= echo site_url('aboutMe/aboutMe'); ?>">quienes somos</a>
-          			<a class="navbar-brand" href="#">servicios</a>
+          			<a class="navbar-brand" href="<?= echo site_url('servicios/servicios'); ?>">servicios</a>
           			<a class="navbar-brand">clientes</a>
           			<a class="navbar-brand">contacto</a>
           			<a class="navbar-brand">login clientes</a>
