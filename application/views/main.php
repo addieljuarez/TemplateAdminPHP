@@ -31,7 +31,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
           			</button>
-          			<a class="navbar-brand" href="<?php echo site_url('aboutMe/aboutMe'); ?>">quienes somos</a>
+          			<a class="navbar-brand" href="<?= echo site_url('aboutMe/aboutMe'); ?>">quienes somos</a>
           			<a class="navbar-brand" href="#">servicios</a>
           			<a class="navbar-brand">clientes</a>
           			<a class="navbar-brand">contacto</a>
