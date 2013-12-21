@@ -1,12 +1,5 @@
-<!-- 
-      main.php
-      templateAdminPHP
-      
-      Created by Addiel Juarez on 2013-12-20.
-      Copyright 2013 Addiel Juarez. All rights reserved.
- -->
-
 <!DOCTYPE HTML>
+
 <html>
 	<head>
 	  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
@@ -38,7 +31,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
           			</button>
-          			<a class="navbar-brand" href="#">quienes somos</a>
+          			<a class="navbar-brand" href="<?php echo site_url('aboutMe/aboutMe'); ?>">quienes somos</a>
           			<a class="navbar-brand" href="#">servicios</a>
           			<a class="navbar-brand">clientes</a>
           			<a class="navbar-brand">contacto</a>
@@ -47,7 +40,7 @@
           			<a class="navbar-brand">Shopers Alta</a>
           			<a class="navbar-brand">Administrador</a>
         		</div>
-        		<div class="navbar-collapse collapse">
+        		<!-- <div class="navbar-collapse collapse">
           			<form class="navbar-form navbar-right" role="form">
 			            <div class="form-group">
 			              <input type="text" placeholder="Email" class="form-control">
@@ -57,10 +50,11 @@
 			            </div>
             			<button type="submit" class="btn btn-success">Login</button>
           			</form>
-        		</div><!--/.navbar-collapse -->
-      		</div>
+        		</div> -->
+      	</div>
     	</div>
-
+	
+	<div style="height:	50px"></div>
 	    <!-- Main jumbotron for a primary marketing message or call to action -->
 	    <div class="jumbotron">
       		<div class="container">
@@ -95,6 +89,6 @@
       		<footer>
         		<p>&copy; Negoapps 2014</p>
       		</footer>
-    	</div> <!-- /container -->
+    	</div>
   	</body>
 </html>
