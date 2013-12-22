@@ -9,10 +9,11 @@
 		function __construct()
 		{
 			parent::__construct();
+			$this->load->helper('form');
 		}
 
 		function admin(){
-			print_r('test');
+			$this->load->view('Login/loginAdmin');
 		}
 	}
 
