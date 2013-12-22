@@ -16,14 +16,14 @@
 	  	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" /> -->
 	  	<title>template</title>
 
-		<link href="../../resource/css/bootstrap.css" rel="stylesheet"/>
-		<link href="../../resource/css/bootstrap.min.css" />
-		<link href="../../resource/css/bootstrap-theme.css" />
-		<link href="../../resource/css/bootstrap-theme.min.css" />
-		<link rel="stylesheet" type="text/css" href="../../resource/css/offcanvas.css">
+		<link href="resource/css/bootstrap.css" rel="stylesheet"/>
+		<link href="resource/css/bootstrap.min.css" />
+		<link href="resource/css/bootstrap-theme.css" />
+		<link href="resource/css/bootstrap-theme.min.css" />
+		<link href="resource/css/offcanvas.css">
 		
-		<script src="../../resource/js/bootstrap.js"></script>
-		<script src="../../resource/js/bootstrap.min.js"></script>
+		<script src="resource/js/bootstrap.js"></script>
+		<script src="resource/js/bootstrap.min.js"></script>
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
 		
