@@ -22,8 +22,8 @@
 
 
 		
-		<script src="/resource/js/bootstrap.js"></script>
-		<script src="/resource/js/bootstrap.min.js"></script>
+		<script src="../../resource/js/bootstrap.js"></script>
+		<script src="../../resource/js/bootstrap.min.js"></script>
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
 		<title>Login Admin</title>
