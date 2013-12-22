@@ -11,14 +11,14 @@
 		<!-- <link href="offcanvas.css" rel="stylesheet"> -->
 
 
-	  	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+	  	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" /> -->
 	  	<title>template</title>
 
-		<link href="/resource/css/bootstrap.css" rel="stylesheet"/>
-		<link href="/resource/css/bootstrap.min.css" />
-		<link href="/resource/css/bootstrap-theme.css" />
-		<link href="/resource/css/bootstrap-theme.min.css" />
-		<link href="/resource/css/signin.css" rel='stylesheet' type='text/css'>
+		<link href="../../resource/css/bootstrap.css" rel="stylesheet"/>
+		<link href="../../resource/css/bootstrap.min.css" />
+		<link href="../../resource/css/bootstrap-theme.css" />
+		<link href="../../resource/css/bootstrap-theme.min.css" />
+		<link href="../../resource/css/signin.css" rel="stylesheet" />
 
 
 		
