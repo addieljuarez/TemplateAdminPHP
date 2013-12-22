@@ -78,7 +78,7 @@
 
 
 
-		<div class='container'  style='border-style:solid; border-color:red; border-width:1px; top:100px'><!--contenedor del body-->
+		<div class='container'  style='border-style:solid; border-color:red; border-width:1px; position:absolute; top:50px; left:auto'><!--contenedor del body-->
 			<div class='row row-offcanvas row-offcanvas-right'>
 				<div class='col-xs-12 col-sm-9'>
 					<p class='pull-right visible-xs'>
