@@ -15,6 +15,10 @@
 		function admin(){
 			$this->load->view('Login/loginAdmin');
 		}
+
+		function login(){
+			print_r('test');
+		}
 	}
 
 ?>

@@ -29,20 +29,45 @@
 		<title>Login Admin</title>
 	</head>
 	<body>
+
+		<!-- arrays de style input que se inserta en php -->
+		<?
+			$email = array(
+				'name' => 'email',
+				'placeholder' => 'email',
+				'class' => 'form-control',
+				'type' => 'text',
+			);
+
+			$formStyle = array(
+				'class' => 'form-signin', 
+				'role' => 'form',
+				'required',
+				'autofocus',
+				);
+		?>
+
+
 		<div class="container"><!--div container-->
-			<form class='form-signin' role='form'>
+
+			<?= form_open('adminstrador/login', $formStyle); ?>
+			<!-- <form class='form-signin' role='form'> -->
 				<h2 class='form-signin-heading'>
 					Login Admin
 				</h2>
-				<input type='text' class='form-control' placeholder='Email' required autofocus>
+				<!-- <input type='text' class='form-control' placeholder='Email' required autofocus> -->
+				<?= form_input($email);?>
 				<input type='password' class='form-control' placeholder='Password' required>
 				<label class='checkbox'>
 					<input type='checkbox' value='remember-me'>Remember me
 				</label>
-				<button class='btn btn-lg btn-primary btn-block' type='submit'>
+				<!-- <button class='btn btn-lg btn-primary btn-block' type='submit'>
 					Login
-				</button>
-			</form>
+				</button> -->
+				<?php echo form_submit(); ?>
+
+			<!-- </form> -->
+			<?php form_close();?>
 			
 		</div><!--end div container-->
 
