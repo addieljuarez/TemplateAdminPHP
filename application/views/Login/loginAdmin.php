@@ -41,6 +41,7 @@
 
 			$password = array(
 				'type' => 'password',
+				'name' => 'Password',
 				'class' => 'form-control',
 				'placeholder' => 'Password',
 				'required' => 'required',
@@ -61,7 +62,7 @@
 
 		<div class="container"><!--div container-->
 
-			<?= form_open('administrador/login', $formStyle); ?>
+			<?= form_open('administrador/loginSucces', $formStyle); ?>
 				<h2 class='form-signin-heading'>
 					Login Admin
 				</h2>
